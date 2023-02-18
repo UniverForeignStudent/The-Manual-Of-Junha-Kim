@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Oswald&family=ZCOOL+XiaoWei&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #D9D9DA;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    line-height: 60px;
+    z-index: 111;
+}
+.logo{
+    display: flex;
+}
+#site-logo{
+    height:60px;
+    width: 60px;
+}
+#site-name{
+    height:60px;
+    width:100px;
+}
+.link{
+    width:60px;
+    height: 100px;
+}
