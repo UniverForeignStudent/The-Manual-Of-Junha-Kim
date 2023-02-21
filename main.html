@@ -22,17 +22,15 @@
                     <li><a href="#">Outcome</a></li>
                 </ul>
                 <div class="link">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/UniverForeignStudent"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-solid fa-user"></i></a>
                 </div>
             </nav>
             <div class="casing">
                 <div class="introduce introduce0">
-                    <span class="langchange">
-                        <span class="hello">Hello, My name is</span>
-                        <span class="intro-name">Junha Kim</span>
-                        <p>and this is the manual of Junha Kim. You can learn about this person's information and abilities through this manual. If you're satisfied, please hire me.</p>
-                    </span>
+                    <h1>
+                        <span class="langchange"></span>
+                    </h1>
                 </div>
                 <div class="introduce introduce1">
                     <div class="imagespace">
@@ -42,7 +40,18 @@
             </div>
         </div>
     </body>
-    <footer>
-    
-    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".langchange",{
+            strings:["Hello, My name is Junha Kim, and this is the manual of Junha Kim. You can learn about this person's information and abilities through this manual. If you're satisfied, please hire me.",
+            "안녕하세요 제 이름은 김준하입니다, 그리고 이것은 김준하 사용설명서입니다. 여러분들은 이 설명서를 통해서 저의 정보와 능력을 아실 수 있습니다. 만약 만족하셨다면 저를 고용해주십시오.",
+            "您好，我叫金俊河，这是金俊河使用说明书。大家可以通过这个说明书了解我的信息和能力。如果你满意的话，请雇用我。",
+        ],
+            loop : true,
+            typeSpeed: 40,
+            backSpeed: 10,
+            backDelay: 1500,
+        })
+    </script>
 </html>
